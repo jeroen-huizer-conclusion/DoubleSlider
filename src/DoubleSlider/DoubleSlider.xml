@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="DoubleSlider.widget.DoubleSlider" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>DoubleSlider</name>
+    <description>A Range Slider input control for Mendix.</description>
+	
+	<!-- Icon made by Vaadin www.flaticon.com --> 
+    <icon>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</icon>
+
+    <properties>
+        <property key="fromValueAttr" type="attribute">
+            <caption>Left value</caption>
+            <category>Data Source</category>
+            <description>The left value on the range.</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+                <attributeType name="Float" />
+            </attributeTypes>
+        </property>        
+		<property key="toValueAttr" type="attribute" required="false">
+            <caption>Right value</caption>
+            <category>Data Source</category>
+            <description>The right value on the range, can be empty.</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+                <attributeType name="Float" />
+            </attributeTypes>
+        </property>
+        <property key="minAttr" type="attribute">
+            <caption>Min Attribute</caption>
+            <category>Data Source</category>
+            <description>The min for the range.</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+                <attributeType name="Float" />
+            </attributeTypes>
+        </property>
+        <property key="maxAttr" type="attribute">
+            <caption>Max Attribute</caption>
+            <category>Data Source</category>
+            <description>The max for the range.</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+                <attributeType name="Float" />
+            </attributeTypes>
+        </property>
+        <property key="stepAttr" type="attribute" required="false">
+            <caption>Range Step Attribute</caption>
+            <category>Data Source</category>
+            <description>The step value of the range from an attribute, to 5% of the range.</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+                <attributeType name="Long" />
+                <attributeType name="Float" />
+            </attributeTypes>
+        </property>
+        <property key="orientation" type="enumeration" defaultValue="horizontal">
+            <caption>Orientation</caption>
+            <category>Appearance</category>
+            <description>Slider orientation: horizontal (recommended) or vertical</description>
+            <enumerationValues>
+                <enumerationValue key="horizontal">Horizontal</enumerationValue>
+                <enumerationValue key="vertical">Vertical</enumerationValue>
+            </enumerationValues>
+        </property>
+    </properties>
+</widget>
+
